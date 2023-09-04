@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*------------------------------------------ HEADER --------------------------------------------------*/
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: 'Poppins', san;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 160px;
+}
+
+.principal{
+    width: 80px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:rgba(252, 79, 79, 0.692);
+    transition: 0.3s;
+}
+
+/*-------------------------------- MAIN 1 SECTION -------------------------*/
+main{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid white;
+}
+aside{
+    margin: 50px ;
+}
+.pagina1{
+    line-height: 20px;
+    width: 80%;
+}
+
+.titulo{
+    font-size: 60px;
+    color: rgba(252, 79, 79, 0.692);
+}
+.subtitulo{
+    font-size:20px;
+    font-weight: 200;
+}
+
+input[type="button"]{
+    margin-top: 20px;
+    height: 60px;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+}
+input[type="button"]:hover{
+    background-color: rgba(252, 79, 79, 0.692);
+    transition: 0.3s;
+    color: white;
+}
+
+input{
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+
+/*-------------------------------- MAIN 2 SECTION -------------------------*/
+
+.segunda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-top: 4px;
+
+}
+
+.segunda-titulo{
+    border-top: 1px solid white;
+    padding-top: 48px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.segunda-paragrafo{
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.rodape{
+    border-top: 1px solid white;
+    padding: 32px;
+}
+
+.rodape-imagem{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
